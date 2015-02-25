@@ -1,0 +1,153 @@
+@import "reseter.css";
+
+@font-face {
+    font-family: Cuprum;
+    src: url(fonts/cuprum-font/Cuprum-Regular.ttf);
+}
+
+@font-face {
+    font-family: CuprumBold;
+    src: url(fonts/cuprum-font/Cuprum-Bold.ttf);
+}
+
+
+body {
+    /* Location of the image */
+    background-image: url(images/background.jpg);
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+
+
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #464646;
+}
+
+div#wrapper {
+    margin: 3% auto;
+    width: 80%;
+}
+
+img#logo {
+    margin-left: 30%;
+}
+
+nav {
+    background-image: url("images/header-bg-middle.png");
+    height: 55px;
+    margin-top: 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    box-shadow: 3px 1px 13px 3px black;
+}
+
+ul.menu li {
+    display: inline-block;
+    width: 24.615%;
+    text-align: center;
+    border-right: 1px inset #262626;
+    height: 37px;
+    padding-top: 18px;
+}
+
+nav ul {
+    width: 100%;
+    float:left;
+}
+
+a {
+    font-family: Cuprum;
+    color: #AEAEAE;
+    text-decoration: none;
+}
+
+main {
+    border: 1px solid #242424;
+    margin-top: 20px;
+    background-color: #393939;
+    height: 100%;
+    font-family: Verdana;
+    color: #AEAEAE;
+    box-shadow: 3px 1px 13px 3px black;
+}
+
+article {
+    width: 40%;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+article#news {
+    margin-left: 20px;
+    margin-right: 169px;
+}
+
+article header {
+    margin-bottom: 20px;
+}
+
+article#info header {
+    text-align: right;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+
+a:hover {
+    color: rgb(212, 72, 39);
+    font-family: CuprumBold;
+}
+
+div#footer {
+    background-color: #2A2A2A;
+    border-top: 1px solid #2d2d2d;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 3px 3px 13px 3px black;
+}
+
+img#copy {
+
+    margin: 8px 655px 4px 40px;
+
+}
+
+img#team {
+    margin-bottom: 4px;
+}
+
+div#designed {
+    margin-left: 460px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
