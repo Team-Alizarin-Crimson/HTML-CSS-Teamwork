@@ -5,7 +5,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Hell Uni</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles/index-styles.css"/>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 
@@ -13,14 +13,16 @@
 
     <div id="wrapper">
         <header>
-            <img id="logo" src="images/logo.png" alt=""/>
+            <div id="logo-image">
+                <img id="logo" src="images/logo.png" alt=""/>
+            </div>
             <nav class="clearfix">
                 <ul class="clearfix">
                     <li><a href="index.html">НАЧАЛО</a></li>
                     <li><a href="#">КУРСОВЕ</a>
                         <ul>
-                            <li><a href="#">HELL#</a></li>
-                            <li><a href="#">LAVA</a></li>
+                            <li><a href="hell-sharp.html">HELL#</a></li>
+                            <li><a href="lava.html">LAVA</a></li>
                             <li><a href="#">LavaScript</a></li>
                             <li><a href="#">ASP.HELL</a></li>
                         </ul>
@@ -33,10 +35,9 @@
         </header>
 
         <main>
-            <section>
                 <article id="news">
                     <header>
-                        НОВИНИ
+                        <h2>НОВИНИ</h2>
                     </header>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius tempus neque, sit amet accumsan enim feugiat eu. Aliquam erat volutpat. Etiam tincidunt dignissim accumsan. Quisque quis nibh et tellus blandit fermentum. Cras in lobortis dolor. Aenean non fermentum massa. Nunc at velit in dui viverra semper. Sed ac arcu in nunc pharetra gravida eget quis ante. Praesent sagittis et enim sed facilisis. Curabitur lobortis purus dui, ultrices consequat justo ultricies vel. Donec ullamcorper cursus nulla quis facilisis.
                     </p>
@@ -59,7 +60,7 @@
                 </article>
                 <article id="info">
                     <header>
-                        НОВИНИ
+                        <h2>НОВИНИ</h2>
                     </header>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius tempus neque, sit amet accumsan enim feugiat eu. Aliquam erat volutpat. Etiam tincidunt dignissim accumsan. Quisque quis nibh et tellus blandit fermentum. Cras in lobortis dolor. Aenean non fermentum massa. Nunc at velit in dui viverra semper. Sed ac arcu in nunc pharetra gravida eget quis ante. Praesent sagittis et enim sed facilisis. Curabitur lobortis purus dui, ultrices consequat justo ultricies vel. Donec ullamcorper cursus nulla quis facilisis.
                     </p>
@@ -80,17 +81,19 @@
                         Nam rhoncus cursus magna id condimentum. In vehicula mauris ut congue varius. Integer at nisi tempus, molestie ligula id, finibus sapien. Vestibulum purus enim, rutrum finibus blandit at, venenatis ut ex. Proin luctus convallis lectus non vestibulum. Nulla a aliquam orci. Praesent feugiat sapien id leo euismod laoreet. Nunc et felis sit amet sapien imperdiet tincidunt. Fusce arcu est, euismod sed tristique id, dapibus quis mauris. Sed eget ultricies justo. Fusce facilisis libero at risus rhoncus, eu rutrum diam mollis. Pellentesque ornare velit sed auctor lacinia. Curabitur porttitor urna metus, sit amet viverra felis pharetra eget.
                     </p>
                 </article>
-                <img src="" alt=""/>
-            </section>
         </main>
 
         <footer>
-            <div id="footer">
-                <img id="copy" src="images/copyright.png" alt="copyright"/>
-                <img id="team" src="images/team.png" alt="team"/>
+            <div id="main-footer">
+                <div id="footer-copy">
+                    <img id="copy" src="images/copyright.png" alt="copyright"/>
+                </div>
+                <div id="footer-team">
+                    <img id="team" src="images/team.png" alt="team"/>
+                </div>
             </div>
             <div id="designed">
-                <img src="images/designed.png" alt=""/>
+                <img src="images/designed.png" alt="designed"/>
             </div>
         </footer>
     </div>
