@@ -1,0 +1,46 @@
+@import "reseter.css";
+@import "index-styles.css";
+
+article {
+    width: 80%;
+    margin-left: 10%;
+}
+
+p {
+    line-height: 150%;
+    font-style: italic;
+}
+main article header{
+    text-align: center;
+}
+h1 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+
+}
+#nakov img{
+    width: 66%;
+}
+#bankin img{
+    width: 65%;
+
+}
+#bogomil img{
+    width: 60%;
+}
+
+#nakov{
+    width: 35%;
+    margin-top: 20px;
+}
+#bankin{
+    width: 45%;
+    margin-top: -220px;
+    margin-left: 230px;
+}
+#bogomil{
+    width: 55%;
+    margin-top: -160px;
+    margin-left: 500px;
+}
+
